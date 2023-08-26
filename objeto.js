@@ -51,4 +51,4 @@ animal1.qualtipo();
 //Aqui fizemos o mesmo exemplo, porém alteramos algumas informações sobre o tipo de peixe.
 var peixes = Object.create(Animal);
 peixes.tipo = 'Peixes';
-peixes.qualtipo()
+peixes.qualtipo()*/
