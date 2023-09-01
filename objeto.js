@@ -29,6 +29,7 @@ function Pessoa(nome,idade,sexo){
 }
 
 //Aqui atribuimos as informações dentro do objeto acionando a função 'Pessoa'
+//Chamando o comando New pessoa usamos como prototipo a função pessoa antiga.
 let Joao = new Pessoa('João', '29', 'Masculino');
 
 //Aqui atribuimos as informações dentro do objeto acionando a função 'carro'
@@ -45,6 +46,7 @@ var Animal = {
 }
 
 //usamos o comando 'Objecto.create()' para criar um modelo igual usado dentro como parametro
+//Pois o comando Objecto.create(), é usado como prototipo para a nova função e não será alterado o original
 var animal1 = Object.create(Animal);
 animal1.qualtipo();
 
