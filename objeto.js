@@ -54,3 +54,76 @@ animal1.qualtipo();
 var peixes = Object.create(Animal);
 peixes.tipo = 'Peixes';
 peixes.qualtipo()*/
+
+/*
+function mostrarNome (){
+    return 'Carlos';
+}
+
+let teste = (typeof mostrarNome);
+
+if(teste === 'function'){
+    var nome = mostrarNome();
+}else{
+    console.log('Não é uma função')
+}
+
+console.log(nome)
+
+*/
+
+ // outra forma de testar o tipo de variavel
+// usando o instanceof verificamos o tipo colocando o valor procurado e o tipo
+
+
+/*
+function mostrarNome (){
+    return 'Carlos';
+}
+
+let teste = (typeof mostrarNome);
+
+if(teste === 'function'){
+    var nome = mostrarNome();
+}else{
+    console.log('Não é uma função')
+}
+
+console.log(nome)
+
+*/
+
+ // outra forma de testar o tipo de variavel
+// usando o instanceof verificamos o tipo colocando o valor procurado e o tipo
+
+/*
+
+// pegamos esse exemplo no youtube
+
+function mostrarNome (){
+    return 'Carlos';
+}
+
+let teste = (typeof mostrarNome);
+
+if(teste === 'function'){
+    var nome = mostrarNome();
+}else{
+    console.log('Não é uma função')
+}
+
+console.log(nome)
+
+*/
+
+ // outra forma de testar o tipo de variavel
+// usando o instanceof verificamos o tipo colocando o valor procurado e o tipo
+function nome1 (){
+    return 'joao';
+ }
+
+ if(nome1 instanceof Function ){
+    var nome = nome1();
+ }
+
+ console.log(nome)
